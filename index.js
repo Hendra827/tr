@@ -1794,7 +1794,7 @@ else if (msg.body.startsWith("!lirik ")) {
   var lirik = get.split("-")[1];
   const { getLyrics } = require("genius-lyrics-api");
 const options = {
-  apiKey: 'NvLyzudSQ3xvZNwGaMzleGIFEDSe6qeQHl6gShNALO3LUI40mmS-nDT611UED5E7',
+  apiKey: 'wGos0eNH0fdjuPek62wtXsbnCbYm6OHznCF2wlPw05hEf6SiJwXvU4LRggtG0sIK',
   title: lirik,
   artist: artis,
   optimizeQuery: true
