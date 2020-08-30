@@ -2744,7 +2744,7 @@ client.sendMessage(
 
  else if (msg.body.startsWith("!yt ")) {
 const url = msg.body.split(" ")[1];
-const exec = require('child_process').exec;
+const { exec } = require('child_process');
 
 var videoid = url.match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/);
 
