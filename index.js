@@ -675,8 +675,6 @@ client.sendMessage(media);
  else if (msg.body.startsWith("!omega")) {
 	 msg.reply("_Sedang di proses_ *NO SPAM*")
 	  var h = msg.body.split("!omega ")[1];
-	 var nama = h.split("] ")[1];
-	 var kata1 = h.split("[")[1].split("]")[0];
 	 	const { exec } = require("child_process");
 
   (async () => {
@@ -1700,7 +1698,7 @@ client.sendMessage(media);
     });
     const page = await browser.newPage();
     await page
-      .goto("https://id.savefrom.net/download-from-instagram", {
+      .goto("https://id.savefrom.net/9-how-to-download-facebook-video.html", {
         waitUntil: "networkidle2",
       })
       .then(async () => {
@@ -1831,7 +1829,7 @@ msg.reply(fik)
 });
 
 }
-else if (msg.body.startsWith("!fb ")) {
+else if (msg.body.startsWith("!fbdl ")) {
 
 const request = require('request');
 var req = msg.body.split(" ")[1];
@@ -2954,11 +2952,13 @@ contoh (Jika mengetahui nama artis) : !lirik alan walker - faded
 contoh (Jika tidak mengetahui nama artis) : !lirik - faded
 `);
  }
-else if (msg.body == "bmzt") {
+else if (msg.body == "2") {
     msg.reply(`
 Nama : *AZ-WhatsApp Bot*
 Dibuat Oleh : *Alif Putra Darmawan*
 Versi : *1.2*
+
+• *!play* Request Judul Lagu
 
 • *!yt* : Mendownload video dari youtube
 contoh : !yt https://youtu.be/K9jR4hSCbG4
@@ -2977,7 +2977,7 @@ contoh : !igv url
 
 `);
 }
-else if (msg.body == "2") {
+else if (msg.body == "bmzt") {
     msg.reply(`
 Nama : *AZ-WhatsApp Bot*
 Dibuat Oleh : *Alif Putra Darmawan*
